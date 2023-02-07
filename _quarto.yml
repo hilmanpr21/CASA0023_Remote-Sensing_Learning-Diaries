@@ -2,8 +2,8 @@ project:
   type: book
 
 book:
-  title: "Learning_Diaries"
-  author: "Jane Doe"
+  title: "Learning Diaries CASA0023 Remotely Sensing Cities and Environments"
+  author: "Hilman Prakoso"
   date: "06/02/2023"
   chapters:
     - index.qmd
