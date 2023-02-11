@@ -1,9 +1,20 @@
 # Welcome to my learning diaries {.unnumbered}
 
-Hi, I'm Hilman Prakoso, a student of CASA.
+Hi,  welcome to my portfolio. It's my weekly learning diaries that hopefully can help me recalling what I have learn in CASA0023 Remotely Sensing Cities and Environments module
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
 
-```{r}
-1 + 1
-```
+## Introduction
+
+Short introduction about me. 
+
+I am Hilman Prakoso, an Indonesian living in London. Currently I am a Master of Science candidate in Urban Spatial Science Program in University College London. In my undergaduate, I studied architecture in a four-year program at Institute Technology Bandung.
+
+My interest are related to socio-spatial analysis, spatial data visualisation, and informal settlement mapping. Along with 2 other friends, I built an urban data centre platrform for my hometown, Surabaya, called [Suroboyo Ngalor Ngidul](https://suroboyongalorngidul.net/). This platform aims to collect and spread data about Surabaya, especially in urban mobilities, social, and economy.
+
+## About this Learning Diaries
+Every chapter discusses different topics which generally structured into 3 segments, summary, application, and reflection. Some topics will have different structure due to specific question to answer. 
+
+Running through this learning diaries will help me and you to understand what remote sensing is and has broad ideas of what we can do with earth observation in city planning
+
+
+

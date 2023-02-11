@@ -4,6 +4,48 @@
     "href": "index.html",
     "title": "Learning Diaries CASA0023 Remotely Sensing Cities and Environments",
     "section": "",
-    "text": "Welcome to my learning diaries\nHi, I’m Hilman Prakoso, a student of CASA.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2"
+    "text": "Welcome to my learning diaries\nHi, welcome to my portfolio. It’s my weekly learning diaries that hopefully can help me recalling what I have learn in CASA0023 Remotely Sensing Cities and Environments module"
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "2  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+  },
+  {
+    "objectID": "index.html#introduction",
+    "href": "index.html#introduction",
+    "title": "Learning Diaries CASA0023 Remotely Sensing Cities and Environments",
+    "section": "Introduction",
+    "text": "Introduction\nShort introduction about me.\nI am Hilman Prakoso, an Indonesian living in London. Currently I am a Master of Science candidate in Urban Spatial Science Program in University College London. In my undergaduate, I studied architecture in a four-year program at Institute Technology Bandung.\nMy interest are related to socio-spatial analysis, spatial data visualisation, and informal settlement mapping. Along with 2 other friends, I built an urban data centre platrform for my hometown, Surabaya, called Suroboyo Ngalor Ngidul. This platform aims to collect and spread data about Surabaya, especially in urban mobilities, social, and economy."
+  },
+  {
+    "objectID": "index.html#interest",
+    "href": "index.html#interest",
+    "title": "Learning Diaries CASA0023 Remotely Sensing Cities and Environments",
+    "section": "Interest",
+    "text": "Interest"
+  },
+  {
+    "objectID": "index.html#about-this-learning-diaries",
+    "href": "index.html#about-this-learning-diaries",
+    "title": "Learning Diaries CASA0023 Remotely Sensing Cities and Environments",
+    "section": "About this Learning Diaries",
+    "text": "About this Learning Diaries\nEvery chapter discusses different topics which generally structured into 3 segments, summary, application, and reflection. Some topics will have different structure due to specific question to answer.\nRunning through this learning diaries will help me and you to understand what remote sensing is and has broad ideas of what we can do with earth observation in city planning"
   }
 ]
