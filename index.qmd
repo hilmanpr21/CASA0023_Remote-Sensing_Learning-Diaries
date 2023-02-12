@@ -1,6 +1,6 @@
 # Welcome to my learning diaries {.unnumbered}
 
-Hi,  welcome to my portfolio. It's my weekly learning diaries that hopefully can help me recalling what I have learn in CASA0023 Remotely Sensing Cities and Environments module
+Hi, welcome to my portfolio. It's my weekly learning diaries that hopefully can help me recalling what I have learn in CASA0023 Remotely Sensing Cities and Environments module
 
 
 ## Introduction
