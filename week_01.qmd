@@ -4,7 +4,7 @@ bibliography: Remote Sensing References/Remote Sensing References.bib
 csl: Remote Sensing References/harvard-cite-them-right.csl
 ---
 
-# Summary
+## Summary
 
 Remote sensing is acquiring data or information from a distance. In this module, context we use remote sensing for **Earth Observation (EO).** This can be done by using sensor mounted on satelite.
 
@@ -46,17 +46,18 @@ Check the mind map to understand the outline of this week's topic
 
 ![Mind map](week_01_files/mediabag/mindmap.jpeg)
 
-## Types of Sensor
+### Types of Sensor
 
-### Passive Sensor
+#### Passive Sensor
 
 -   Use electromagnetic waves from sun-ray as source of energy.
 -   Detect reflected energy from the sun that has different wavelength to detect different colour spectrum
 -   Such as:
     -   sentinel
-    -   landsat ![Passive Sensor](week_01_files/Passive sensor.png) 
+    -   landsat 
+    ![Passive Sensor](week_01_files/mediabag/Passive sensor.png) 
     
-### Active Sensor
+#### Active Sensor
 -   Have an energy source for Illumination
 -   Actively emits electromagnetics wave and then wait to rceive
 -   Such as:
@@ -66,7 +67,7 @@ Check the mind map to understand the outline of this week's topic
     
     ![Active Sensor](week_01_files/mediabag/active sensor.png)
 
-## Electro Magnetic waves
+### Electro Magnetic waves
 
 -   is waves that have both eletric and magentic field, produce by vibration of particles
 -   EM waves move in vacuum
@@ -75,7 +76,7 @@ Check the mind map to understand the outline of this week's topic
 
 ![Electromagnetive Wave](week_01_files/mediabag/electromagnetive wave.png) 
 
-### Terms 
+#### Terms 
 - Electromagnetic radiation (EMR) = Waves of an electromagnetic field, travel through space and carry radiant energy 
 - Radiant Energy = energy carried by EMR Waves 
 - Radian flux = Energy per unit of time 
@@ -83,7 +84,7 @@ Check the mind map to understand the outline of this week's topic
 - flux) = energy leaving a surface per unit area per unit time - Flux = time
 
 
-### Electromagnetric Radiaton (EMR) interaction
+#### Electromagnetric Radiaton (EMR) interaction
 
 -   Before hitting hitting the sensor, energy from electromagnetic radiation will interacting with:
     -   atmosphere
@@ -92,7 +93,7 @@ Check the mind map to understand the outline of this week's topic
         -   absorbed
         -   transmitted
 
-#### Atmospheric Scattering
+##### Atmospheric Scattering
 
 -   Electromagnetic waves are scatters by particles on the atmosphere 
 ![Electromagnetive Wave](week_01_files/mediabag/wavelength reflection.png)
@@ -111,7 +112,7 @@ Check the mind map to understand the outline of this week's topic
 
 -   drawback of **passive sensor** is that it **could not pass through cloud**
 
-### Bidirectional Documented Surface Interaction (BDRF)
+##### Bidirectional Documented Surface Interaction (BDRF)
 
 -   happens because sensor and illumination (sun) angles can change.
 -   It can cause
@@ -122,7 +123,7 @@ Check the mind map to understand the outline of this week's topic
     
 > **"There are many interaction that influence the data being created because it's not merely say that energy from sun is reflected by earth to sensor (but there are may factor such as scattering and interaction with surface)"**
 
-## Types of orbit
+### Types of orbit
 - **Geosynchronous Orbit (GSO)**
 	- satelite matches the earth's rotation, usually for sensor
 - **Geostationary Orbit**
@@ -130,29 +131,31 @@ Check the mind map to understand the outline of this week's topic
 	
 	![Orbit type](week_01_files/mediabag/orbit_type.png)
 
-## Data
-### Raster Format
+### Data
+#### Raster Format
 - Satellite sensor produces **raster imagery data**. Raster image is a graphic repesented as a rectangular matrix or grid of square pixels. 
 
 ![Raster Grid](week_01_files/mediabag/raster image.png)
 
-### Four Data Resolution
-#### Spatial
+#### Four Data Resolution
+##### Spatial
 - Spatial resolution is the size of the raster  grid per pixel. The smaller the grid means the higher the resolution be so the clearer the image be
 	- smallest grid is 10cm
 
-#### Temporal
+##### Temporal
 - Temporal resolution is showing how often the data being updated
 
-#### Radiometric
+##### Radiometric
 - **Radiometric** is identified differences in light or reflectance, in  practice this is the range of possible values. or the ability od a sensor to identify and show small difference in energy.
 - The higher the bit, the more sensitive and the more information 
 - however, the lower the radiometric resolution, the higher possibility to differentiate features
 
-#### Spectral
+##### Spectral
 - this concept similar to pixel concept in digital camera where different colour (called band) is stacked together so it makes a new colour combination. 
 	
-![pixel band system](week_01_files/mediabag/pixel band system.png)
+![pixel band system](week_01_files/mediabag/pixel band system.png){width=70%}
+
+
 source:  [The hype in spectral imaging | Spectroscopy Europe/World](https://www.spectroscopyeurope.com/article/hype-spectral-imaging)
 
 - spectral resolution based on number of bands being observed
@@ -165,9 +168,9 @@ source:  [The hype in spectral imaging | Spectroscopy Europe/World](https://www.
   ![Scatter Plot band 4 and band 8](week_01_files/mediabag/scatter plot.png)
 
 
-# Application
+## Application
 
-# Reflection
+## Reflection
 
 
 
