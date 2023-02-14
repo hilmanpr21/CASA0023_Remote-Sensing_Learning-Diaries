@@ -162,10 +162,12 @@ source:  [The hype in spectral imaging | Spectroscopy Europe/World](https://www.
 ![Spectral Signature](week_01_files/mediabag/spectral.png)
 - This spectral signature are used to differentiate object in the image. In earth observation we use this for identifying land cover in earth surface using **Normalized Difference Vegetation Index (NDVI), Normalized Difference Building Index (NDBI)**
   -  for example in this week practical we identify the landcover by making scatter plot with band 4 (red, vegetation absorb) and band 8 (Near-Infrared, NIR, that vegetation strongly reflect). high values of NIR and low values of red represents dense vegetation. Meanwhile low values of red and NIR represent dense vegetation
-  ![Scatter Plot band 4 and band 8](week_01_files/mediabagscatter plot.png)
+  ![Scatter Plot band 4 and band 8](week_01_files/mediabag/scatter plot.png)
 
 
+# Application
 
+# Reflection
 
 
 
