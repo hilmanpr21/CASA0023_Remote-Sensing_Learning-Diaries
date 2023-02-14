@@ -1,0 +1,176 @@
+---
+title: "week 01 - Remote Sensing Introduction"
+bibliography: Remote Sensing References/Remote Sensing References.bib
+csl: Remote Sensing References/harvard-cite-them-right.csl
+---
+
+# Summary
+
+Remote sensing is acquiring data or information from a distance. In this module, context we use remote sensing for **Earth Observation (EO).** This can be done by using sensor mounted on satelite.
+
+In this week we will talk general topic about sensor and satellite on on earth observation. It can be seen in the mind map that there will be 4 subtopics to make us easier understanding Sensor, which are:
+
+1.  Types of Sensor
+
+    1.  Passive Sensor
+
+    2.  Active Sensor
+
+2.  Electromagnetic waves or radiation (EMR)
+
+    1.  EMR interaction with atmosphere before hitting sensor
+
+    2.  EMR interaction with earth surface before hitting sensor
+
+3.  Type or satellite orbit
+
+    1.  Geosynchronous Orbit
+
+    2.  Geostationary Orbit
+
+4.  Data produced by sensor
+
+    1.  Raster Data Format
+
+    2.  Resolution
+
+        1.  Spectral
+
+        2.  Spatial
+
+        3.  Temporal
+
+        4.  Radiometric
+
+Check the mind map to understand the outline of this week's topic
+
+![Mind map](week_01_files/mediabag/mindmap.jpeg)
+
+## Types of Sensor
+
+### Passive Sensor
+
+-   Use electromagnetic waves from sun-ray as source of energy.
+-   Detect reflected energy from the sun that has different wavelength to detect different colour spectrum
+-   Such as:
+    -   sentinel
+    -   landsat ![Passive Sensor](week_01_files/Passive sensor.png) 
+    
+### Active Sensor
+-   Have an energy source for Illumination
+-   Actively emits electromagnetics wave and then wait to rceive
+-   Such as:
+    -   Synthetic-aperture Radar (SAR),
+    -   X-ray,
+    -   LiDAR 
+    
+    ![Active Sensor](week_01_files/mediabag/active sensor.png)
+
+## Electro Magnetic waves
+
+-   is waves that have both eletric and magentic field, produce by vibration of particles
+-   EM waves move in vacuum
+-   Perpendicular electric and magnetic field
+-   different wavelength causes different colour spectrum. That's why we can see colourful image
+
+![Electromagnetive Wave](week_01_files/mediabag/electromagnetive wave.png) 
+
+### Terms 
+- Electromagnetic radiation (EMR) = Waves of an electromagnetic field, travel through space and carry radiant energy 
+- Radiant Energy = energy carried by EMR Waves 
+- Radian flux = Energy per unit of time 
+- Exitance emittance (per unit time 
+- flux) = energy leaving a surface per unit area per unit time - Flux = time
+
+
+### Electromagnetric Radiaton (EMR) interaction
+
+-   Before hitting hitting the sensor, energy from electromagnetic radiation will interacting with:
+    -   atmosphere
+        -   scattered by atmosphere particle
+    -   earth's surface
+        -   absorbed
+        -   transmitted
+
+#### Atmospheric Scattering
+
+-   Electromagnetic waves are scatters by particles on the atmosphere 
+![Electromagnetive Wave](week_01_files/mediabag/wavelength reflection.png)
+
+-   Smaller wavelengths scatter easier
+
+-   Blue has the smallest wavelength 
+![RGB Wavelength](week_01_files/mediabag/wavelength.png)
+
+-   type of scattering:
+
+    -   **Rayleigh** is when particles are **very small** compared to the wavelength.
+        -   eg: sky looks blue because sunray scattered by particles. in sunset or sunrise is much more atmosphere to pass throught so more scattered. When sun's angle change the blue light scatter does not reach our eyes as the distance is increased, so longer wavelength like red and orange reach us
+    -   **Mie** is when particles are **same size** compared to the wavelength
+    -   **Non Selective** is when particles are **much larger** compared to the wavelength
+
+-   drawback of **passive sensor** is that it **could not pass through cloud**
+
+### Bidirectional Documented Surface Interaction (BDRF)
+
+-   happens because sensor and illumination (sun) angles can change.
+-   It can cause
+    -   **backscattering** (left): sun behind the sensor, bright region at sensor and sun side
+    -   **forwards scattering** (right): sun opposite satelite, shadow region at sensor side 
+    
+    ![Back Scattering and Forward Scattering](week_01_files/mediabag/scattering.png)
+    
+> **"There are many interaction that influence the data being created because it's not merely say that energy from sun is reflected by earth to sensor (but there are may factor such as scattering and interaction with surface)"**
+
+## Types of orbit
+- **Geosynchronous Orbit (GSO)**
+	- satelite matches the earth's rotation, usually for sensor
+- **Geostationary Orbit**
+	- satelite holds same position, usually only for communication
+	
+	![Orbit type](week_01_files/mediabag/orbit_type.png)
+
+## Data
+### Raster Format
+- Satellite sensor produces **raster imagery data**. Raster image is a graphic repesented as a rectangular matrix or grid of square pixels. 
+
+![Raster Grid](week_01_files/mediabag/raster image.png)
+
+### Four Data Resolution
+#### Spatial
+- Spatial resolution is the size of the raster  grid per pixel. The smaller the grid means the higher the resolution be so the clearer the image be
+	- smallest grid is 10cm
+
+#### Temporal
+- Temporal resolution is showing how often the data being updated
+
+#### Radiometric
+- **Radiometric** is identified differences in light or reflectance, in  practice this is the range of possible values. or the ability od a sensor to identify and show small difference in energy.
+- The higher the bit, the more sensitive and the more information 
+- however, the lower the radiometric resolution, the higher possibility to differentiate features
+
+#### Spectral
+- this concept similar to pixel concept in digital camera where different colour (called band) is stacked together so it makes a new colour combination. 
+	
+![pixel band system](week_01_files/mediabag/pixel band system.png)
+source:  [The hype in spectral imaging | Spectroscopy Europe/World](https://www.spectroscopyeurope.com/article/hype-spectral-imaging)
+
+- spectral resolution based on number of bands being observed
+
+![band list](week_01_files/mediabag/band list.png)
+- We can take values for each wavelength (or a band of several wavelengths) across the electromagnetic spectrum to create a **spectral signature**. different feature on earth has different spectral signature, it will be used to identify different object.  **spectral signature** can be **discrete** (eg. multispectral) or **continuous** (eg. hyperspectral)
+![Spectral Signature](week_01_files/mediabag/spectral.png)
+- This spectral signature are used to differentiate object in the image. In earth observation we use this for identifying land cover in earth surface using **Normalized Difference Vegetation Index (NDVI), Normalized Difference Building Index (NDBI)**
+  -  for example in this week practical we identify the landcover by making scatter plot with band 4 (red, vegetation absorb) and band 8 (Near-Infrared, NIR, that vegetation strongly reflect). high values of NIR and low values of red represents dense vegetation. Meanwhile low values of red and NIR represent dense vegetation
+  ![Scatter Plot band 4 and band 8](week_01_files/mediabagscatter plot.png)
+
+
+
+
+
+
+
+
+
+
+

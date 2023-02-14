@@ -1,5 +1,158 @@
 {
-    "sources": [],
+    "sources": [
+        {
+            "id": "noauthor_city_2015",
+            "issued": {
+                "date-parts": [
+                    [
+                        2015
+                    ]
+                ]
+            },
+            "publisher": "ARUP",
+            "title": "City Resilience Index",
+            "type": ""
+        },
+        {
+            "DOI": "10.1109/Agro-Geoinformatics.2016.7577655",
+            "abstract": "Flood is defined as water that temporarily submerges land. In the United States, flood is being considered as an event only if it last over 72 hours, but the time frame is much longer in the Europe. The information of water bodies is an important source when examining floods. However, this data is not always available or accurate by traditional survey since water surface changes frequently. Remote Sensing provides an alternative method to traditional survey with lower cost and much frequent revisit cycles. Some sensors have very fine spatial resolution but relative long revisit circle; while some fine temporal resolution satellites are not able to provide spatial information in detail. This paper provides a brief review and comparison of major optical and Radar satellite sensors which are currently adopted in flood assessment. Result indicated that both optical sensors and Radar systems play important roles in flood assessment. Although many agencies use Radar or optical data independently when ding flood assessment, the potential of combining data from both systems is huge.",
+            "author": [
+                {
+                    "family": "Lin",
+                    "given": "Li"
+                },
+                {
+                    "family": "Di",
+                    "given": "Liping"
+                },
+                {
+                    "family": "Yu",
+                    "given": "Eugene Genong"
+                },
+                {
+                    "family": "Kang",
+                    "given": "Lingjun"
+                },
+                {
+                    "family": "Shrestha",
+                    "given": "Ranjay"
+                },
+                {
+                    "family": "Rahman",
+                    "given": "Md. Shahinoor"
+                },
+                {
+                    "family": "Tang",
+                    "given": "Junmei"
+                },
+                {
+                    "family": "Deng",
+                    "given": "Meixia"
+                },
+                {
+                    "family": "Sun",
+                    "given": "Ziheng"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Chen"
+                },
+                {
+                    "family": "Hu",
+                    "given": "Lei"
+                }
+            ],
+            "container-title": "2016 Fifth International Conference on Agro-Geoinformatics (Agro-Geoinformatics)",
+            "id": "lin_review_2016",
+            "issued": {
+                "date-parts": [
+                    [
+                        2016,
+                        7
+                    ]
+                ]
+            },
+            "keyword": "flood assessment, flood monitoring, Floods, MODIS, optical sensor, Optical sensors, Radar, Remote sensing, Remote Sensing, Satellites, Spatial resolution",
+            "page": "1-4",
+            "title": "A review of remote sensing in flood assessment",
+            "type": "paper-conference"
+        },
+        {
+            "abstract": "Semarang city is the capital province of Central Java, Indonesia, which is one of the major cities in Indonesia. Geological structure that is quite striking in the Semarang city is in the form of straightness and firm rock contact that is the reflection of the fault structure both horizontal and normal shear are fairly developed in the central and southern parts of the city. So it frequently occur natural disasters one of them is landslides. So they developed a mapping of landslides in order to reduce disaster losses through the map.",
+            "author": [
+                {
+                    "family": "Faizana",
+                    "given": "Fina"
+                },
+                {
+                    "family": "Nugraha",
+                    "given": "Arief Laila"
+                },
+                {
+                    "family": "Yuwono",
+                    "given": "Bambang Darmo"
+                }
+            ],
+            "id": "faizana_jurnal_2015",
+            "issued": {
+                "date-parts": [
+                    [
+                        2015
+                    ]
+                ]
+            },
+            "title": "Jurnal Geodesi Undip",
+            "type": "article-journal",
+            "volume": "4"
+        },
+        {
+            "DOI": "10.1007/s11269-006-9116-1",
+            "ISSN": "0920-4741, 1573-1650",
+            "URL": "http://link.springer.com/10.1007/s11269-006-9116-1",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2023,
+                        2,
+                        2
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Dewan",
+                    "given": "Ashraf M."
+                },
+                {
+                    "family": "Islam",
+                    "given": "M. Monirul"
+                },
+                {
+                    "family": "Kumamoto",
+                    "given": "T."
+                },
+                {
+                    "family": "Nishigaki",
+                    "given": "M."
+                }
+            ],
+            "container-title": "Water Resources Management",
+            "id": "dewan_evaluating_2007",
+            "issue": "9",
+            "issued": {
+                "date-parts": [
+                    [
+                        2007,
+                        8
+                    ]
+                ]
+            },
+            "page": "1601-1612",
+            "title": "Evaluating Flood Hazard for Land-Use Planning in Greater Dhaka of Bangladesh Using Remote Sensing and GIS Techniques",
+            "type": "article-journal",
+            "volume": "21"
+        }
+    ],
     "project_biblios": [
         "references.bib"
     ]
