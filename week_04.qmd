@@ -48,7 +48,7 @@ Here are further explanation of each indicators that can be tackled using remote
 
 > Integrated, forward-looking and robust network of protective infrastructure that reduces vulnerability and exposure of citizens and critical assets.
 
-__8. EFFECTIVE PROVISION OF CRITICAL SERVICES__
+**8. EFFECTIVE PROVISION OF CRITICAL SERVICES**
 
 8.1 Effective stewardship of ecosystems
 
