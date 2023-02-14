@@ -8,6 +8,7 @@ book:
   date: "06/02/2023"
   chapters:
     - index.qmd
+    - week_01.qmd
     - week_04.qmd
     - intro.qmd
     - summary.qmd
