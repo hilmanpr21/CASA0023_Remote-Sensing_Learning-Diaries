@@ -1,14 +1,7 @@
 {
     "sources": [
         {
-            "id": "noauthor_city_2015",
-            "issued": {
-                "date-parts": [
-                    [
-                        2015
-                    ]
-                ]
-            },
+            "id": "noauthor_city_nodate",
             "publisher": "ARUP",
             "title": "City Resilience Index",
             "type": ""
