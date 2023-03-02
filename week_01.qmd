@@ -1,6 +1,6 @@
 ---
 title: "week 01 - Remote Sensing Introduction"
-bibliography: Remote Sensing References/Remote Sensing References.bib
+bibliography: Remote Sensing References/Week_01 Learning Diary.bib
 csl: Remote Sensing References/harvard-cite-them-right.csl
 ---
 
@@ -170,7 +170,35 @@ source:  [The hype in spectral imaging | Spectroscopy Europe/World](https://www.
 
 ## Application
 
+The increasing satellite remote sensing data on earth observation in the last two decades, allows new approaches on understanding urban setting [@miller_cities_2003]. Satellite remote sensing data offers some advantages, such as:
+	- broader spatial coverage, 
+	- ability for routine update, 
+	- consistent measurement
+
+Combination of remote sensing data with census data or other government data can provide us useful information such as, urban growth, urban heat island, and socioeconomic activities. We will discuss some application examples of remote sensing data, classified based on sensor type.
+
+### Active Sensor
+#### Population Size estimation using Synthetic Aperture Radar (SAR)
+Different from passive sensor, Synthetic Aperture Radar (SAR) is an active sensor that can see through cloud and the backscatter radar wave can determine physical properties such as density and surface texture [@henderson_sar_1997]. The ability of SAR to detect horizontal and vertical structure allows to detect settlement based on texture, materials geometry and density. The result of settlement detection can be used for estimating city population by multiplying with number of occupants per dwelling. Harris [-@harris_sir-imagery_1985] used this methods for estimating population in Tunisia. 
+
+This methods is beneficial for developing countries because they have more informal types of dwellings. Radar Data is really helpful because population census happens only once in 10 years [@henderson_sar_1997] which could not keep up the rapid urban growth.
+
+
+### Passive Sensor
+#### Evaluating Poverty using Nighttime Light (NTL) Satellite
+Nighttime Light Satellite is a passive sensor launched by nasa to collect data of night light emission [@earth_science_data_systems_nighttime_2021]. The data from this satellite provide unique perspective that can be beneficial for detecting global conflict, human night behaviour, ecological impact of artificial night light and so on. 
+
+One of the benefit of nighttime light data is to track socioeconomic inequality and poverty. Yu [-@yu_poverty_2015] evaluated poverty rate in 2856 counties in china. The research compare the average light index from Visible Infrared day-night band with integrated poverty index. It used linear regression and comparison of class to check how accurate  the remote sensing data to evaluate poverty. The result shows that day-night band data can be useful to evaluate poverty in china
+
 ## Reflection
+- The increase of remote sensing data on earth observation helps researcher, policy makers, and local government to understand the urban context better. Special characteristic of remote sensing data allows us to have broader perspectives and collect spatial improvement from time to time which could not be provided by tradisional population census data.
+
+- In the application we can combine the remote sensing data with census data to have more robust analysis.
+
+- Although, using remote sensing data looks more fancy, in some cases and context we can get the similar data that are more efficient and cost effective from governmental source [miller_cities_2003]. For example we can use building permission data rather than satellite data to identify land use. 
+
+- Moreover, managing remote sensing data require higher skill than traditional data. It can be an obstacle for cities that has limited resources
+
 
 
 

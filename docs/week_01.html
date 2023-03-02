@@ -20,6 +20,25 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1.6em;
   vertical-align: middle;
 }
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
 </style>
 
 
@@ -139,7 +158,11 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#types-of-orbit" id="toc-types-of-orbit" class="nav-link" data-scroll-target="#types-of-orbit"><span class="toc-section-number">1.1.3</span>  Types of orbit</a></li>
   <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data"><span class="toc-section-number">1.1.4</span>  Data</a></li>
   </ul></li>
-  <li><a href="#application" id="toc-application" class="nav-link" data-scroll-target="#application"><span class="toc-section-number">1.2</span>  Application</a></li>
+  <li><a href="#application" id="toc-application" class="nav-link" data-scroll-target="#application"><span class="toc-section-number">1.2</span>  Application</a>
+  <ul class="collapse">
+  <li><a href="#active-sensor-1" id="toc-active-sensor-1" class="nav-link" data-scroll-target="#active-sensor-1"><span class="toc-section-number">1.2.1</span>  Active Sensor</a></li>
+  <li><a href="#passive-sensor-1" id="toc-passive-sensor-1" class="nav-link" data-scroll-target="#passive-sensor-1"><span class="toc-section-number">1.2.2</span>  Passive Sensor</a></li>
+  </ul></li>
   <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><span class="toc-section-number">1.3</span>  Reflection</a></li>
   </ul>
 </nav>
@@ -382,11 +405,52 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="application" class="level2" data-number="1.2">
 <h2 data-number="1.2" class="anchored" data-anchor-id="application"><span class="header-section-number">1.2</span> Application</h2>
+<p>The increasing satellite remote sensing data on earth observation in the last two decades, allows new approaches on understanding urban setting <span class="citation" data-cites="miller_cities_2003">(<a href="references.html#ref-miller_cities_2003" role="doc-biblioref">Miller and Small, 2003</a>)</span>. Satellite remote sensing data offers some advantages, such as: - broader spatial coverage, - ability for routine update, - consistent measurement</p>
+<p>Combination of remote sensing data with census data or other government data can provide us useful information such as, urban growth, urban heat island, and socioeconomic activities. We will discuss some application examples of remote sensing data, classified based on sensor type.</p>
+<section id="active-sensor-1" class="level3" data-number="1.2.1">
+<h3 data-number="1.2.1" class="anchored" data-anchor-id="active-sensor-1"><span class="header-section-number">1.2.1</span> Active Sensor</h3>
+<section id="population-size-estimation-using-synthetic-aperture-radar-sar" class="level4" data-number="1.2.1.1">
+<h4 data-number="1.2.1.1" class="anchored" data-anchor-id="population-size-estimation-using-synthetic-aperture-radar-sar"><span class="header-section-number">1.2.1.1</span> Population Size estimation using Synthetic Aperture Radar (SAR)</h4>
+<p>Different from passive sensor, Synthetic Aperture Radar (SAR) is an active sensor that can see through cloud and the backscatter radar wave can determine physical properties such as density and surface texture <span class="citation" data-cites="henderson_sar_1997">(<a href="references.html#ref-henderson_sar_1997" role="doc-biblioref">Henderson and Zong-Guo Xia, 1997</a>)</span>. The ability of SAR to detect horizontal and vertical structure allows to detect settlement based on texture, materials geometry and density. The result of settlement detection can be used for estimating city population by multiplying with number of occupants per dwelling. Harris <span class="citation" data-cites="harris_sir-imagery_1985">(<a href="references.html#ref-harris_sir-imagery_1985" role="doc-biblioref">1985</a>)</span> used this methods for estimating population in Tunisia.</p>
+<p>This methods is beneficial for developing countries because they have more informal types of dwellings. Radar Data is really helpful because population census happens only once in 10 years <span class="citation" data-cites="henderson_sar_1997">(<a href="references.html#ref-henderson_sar_1997" role="doc-biblioref">Henderson and Zong-Guo Xia, 1997</a>)</span> which could not keep up the rapid urban growth.</p>
+</section>
+</section>
+<section id="passive-sensor-1" class="level3" data-number="1.2.2">
+<h3 data-number="1.2.2" class="anchored" data-anchor-id="passive-sensor-1"><span class="header-section-number">1.2.2</span> Passive Sensor</h3>
+<section id="evaluating-poverty-using-nighttime-light-ntl-satellite" class="level4" data-number="1.2.2.1">
+<h4 data-number="1.2.2.1" class="anchored" data-anchor-id="evaluating-poverty-using-nighttime-light-ntl-satellite"><span class="header-section-number">1.2.2.1</span> Evaluating Poverty using Nighttime Light (NTL) Satellite</h4>
+<p>Nighttime Light Satellite is a passive sensor launched by nasa to collect data of night light emission <span class="citation" data-cites="earth_science_data_systems_nighttime_2021">(<a href="references.html#ref-earth_science_data_systems_nighttime_2021" role="doc-biblioref">Earth Science Data Systems, 2021</a>)</span>. The data from this satellite provide unique perspective that can be beneficial for detecting global conflict, human night behaviour, ecological impact of artificial night light and so on.</p>
+<p>One of the benefit of nighttime light data is to track socioeconomic inequality and poverty. Yu <span class="citation" data-cites="yu_poverty_2015">(<a href="references.html#ref-yu_poverty_2015" role="doc-biblioref">2015</a>)</span> evaluated poverty rate in 2856 counties in china. The research compare the average light index from Visible Infrared day-night band with integrated poverty index. It used linear regression and comparison of class to check how accurate the remote sensing data to evaluate poverty. The result shows that day-night band data can be useful to evaluate poverty in china</p>
+</section>
+</section>
 </section>
 <section id="reflection" class="level2" data-number="1.3">
 <h2 data-number="1.3" class="anchored" data-anchor-id="reflection"><span class="header-section-number">1.3</span> Reflection</h2>
+<ul>
+<li><p>The increase of remote sensing data on earth observation helps researcher, policy makers, and local government to understand the urban context better. Special characteristic of remote sensing data allows us to have broader perspectives and collect spatial improvement from time to time which could not be provided by tradisional population census data.</p></li>
+<li><p>In the application we can combine the remote sensing data with census data to have more robust analysis.</p></li>
+<li><p>Although, using remote sensing data looks more fancy, in some cases and context we can get the similar data that are more efficient and cost effective from governmental source [miller_cities_2003]. For example we can use building permission data rather than satellite data to identify land use.</p></li>
+<li><p>Moreover, managing remote sensing data require higher skill than traditional data. It can be an obstacle for cities that has limited resources</p></li>
+</ul>
 
 
+<div id="refs" class="references csl-bib-body" role="doc-bibliography" style="display: none">
+<div id="ref-earth_science_data_systems_nighttime_2021" class="csl-entry" role="doc-biblioentry">
+Earth Science Data Systems, N. (2021) <span>“Nighttime <span>Lights</span>,”</span> <em>Earthdata</em>. Available at: <a href="https://www.earthdata.nasa.gov/learn/backgrounders/nighttime-lights">https://www.earthdata.nasa.gov/learn/backgrounders/nighttime-lights</a> (Accessed: February 15, 2023).
+</div>
+<div id="ref-harris_sir-imagery_1985" class="csl-entry" role="doc-biblioentry">
+Harris, R. (1985) <span>“<span>SIR</span>-<span>A</span> imagery of <span>Tunisia</span> and its potential for population estimation,”</span> <em>International Journal of Remote Sensing</em>, 6(7), pp. 975–978. doi: <a href="https://doi.org/10.1080/01431168508948260">10.1080/01431168508948260</a>.
+</div>
+<div id="ref-henderson_sar_1997" class="csl-entry" role="doc-biblioentry">
+Henderson, F. M. and Zong-Guo Xia (1997) <span>“<span>SAR</span> applications in human settlement detection, population estimation and urban land use pattern analysis: A status report,”</span> <em>IEEE Transactions on Geoscience and Remote Sensing</em>, 35(1), pp. 79–85. doi: <a href="https://doi.org/10.1109/36.551936">10.1109/36.551936</a>.
+</div>
+<div id="ref-miller_cities_2003" class="csl-entry" role="doc-biblioentry">
+Miller, R. B. and Small, C. (2003) <span>“Cities from space: Potential applications of remote sensing in urban environmental research and policy,”</span> <em>Environmental Science &amp; Policy</em>, 6(2), pp. 129–137. doi: <a href="https://doi.org/10.1016/S1462-9011(03)00002-9">10.1016/S1462-9011(03)00002-9</a>.
+</div>
+<div id="ref-yu_poverty_2015" class="csl-entry" role="doc-biblioentry">
+Yu, B. <em>et al.</em> (2015) <span>“Poverty <span>Evaluation</span> <span>Using</span> <span>NPP</span>-<span>VIIRS</span> <span>Nighttime</span> <span>Light</span> <span>Composite</span> <span>Data</span> at the <span>County</span> <span>Level</span> in <span>China</span>,”</span> <em>IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing</em>, 8(3), pp. 1217–1229. doi: <a href="https://doi.org/10.1109/JSTARS.2015.2399416">10.1109/JSTARS.2015.2399416</a>.
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->
